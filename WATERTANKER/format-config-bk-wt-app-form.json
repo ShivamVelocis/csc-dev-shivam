@@ -374,7 +374,7 @@
                                 ]
                             },
                             {
-                                "text": "Taxes",
+                                "text": "Quantity",
                                 "style": "app-table-label",
                                 "alignment": "left",
                                 "border": [
@@ -409,7 +409,7 @@
                                 ]
                             },
                             {
-                                "text": "{{variable72}}",
+                                "text": "{{quantity}}",
                                 "style": "app-table-value",
                                 "alignment": "left",
                                 "border": [
