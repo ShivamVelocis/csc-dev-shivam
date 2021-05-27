@@ -216,7 +216,8 @@
                 "table": {
                     "widths": [
                         "auto",
-                        200,
+                        "auto",
+                        "auto",
                         175,
                         100
                     ],
@@ -228,6 +229,10 @@
                                 "style": "horizontalcolumnsheader",
                                 "alignment": "center"
                             },
+                            {
+                                 "text": "Quantity",
+                                "style": "horizontalcolumnsheader",
+                                "alignment": "center"},
                             {
                                 "text": "{{variable75}}",
                                 "style": "horizontalcolumnsheader",
@@ -251,6 +256,11 @@
                                 "alignment": "center"
                             },
                             {
+                                 "text": "{{quantity}}",
+                                "style": "horizontalcontentstyle",
+                                "alignment": "center"
+                            },
+                            {
                                 "text": "{{variable9}}",
                                 "style": "horizontalcontentstyle",
                                 "alignment": "center"
@@ -269,8 +279,9 @@
                         [
                             {
                                 "text": {},
-                                "colSpan": 2
+                                "colSpan": 3
                             },
+                            {},
                             {},
                             {
                                 "text": "GST @18%",
@@ -286,8 +297,9 @@
                         [
                             {
                                 "text": {},
-                                "colSpan": 2
+                                "colSpan": 3
                             },
+                            {},
                             {},
                             {
                                 "text": "Total Paid Amount",
@@ -308,6 +320,7 @@
                                 "alignment": "left",
                                 "bold": true
                             },
+                            {},
                             {},
                             {},
                             {}

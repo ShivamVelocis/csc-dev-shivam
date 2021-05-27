@@ -49,6 +49,12 @@
                          }
                       },
                       {
+                        "variable": "quantity",
+                        "value": {
+                           "path": "$.booking.quantity"
+                        }
+                     },
+                      {
                          "variable": "variable7",
                          "value": {
                             "path": "$.paymentInfo.paymentDate"
