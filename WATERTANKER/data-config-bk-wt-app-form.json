@@ -137,7 +137,7 @@
                         }
                      },
                      {
-                        "variable": "Quantity",
+                        "variable": "quantity",
                         "value": {
                            "path": "$.feeDetail.quantity"
                         }
